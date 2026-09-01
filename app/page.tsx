@@ -193,9 +193,8 @@ export default function HomePage() {
 
       <section id="about" className="bg-white py-16 sm:py-20 lg:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
-          <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
+          <div className="grid items-center gap-10">
             <div>
-           
               <h2 className="mt-4 max-w-xl text-3xl font-semibold tracking-[-0.04em] text-slate-900 sm:text-4xl lg:text-5xl">
                 Looking for the best Escorts Services in Lahore? 
               </h2>
@@ -226,38 +225,6 @@ export default function HomePage() {
                   </span>
                 ))}
               </div>
-            </div>
-
-            <div className="grid gap-5 sm:grid-cols-2">
-              {[
-                {
-                  title: 'Step-by-step clarity',
-                  text: 'Clear checklists and easy instructions make every stage feel manageable.',
-                },
-                {
-                  title: 'Expert review',
-                  text: 'Our specialists help you avoid common mistakes before submission.',
-                },
-                {
-                  title: 'Fast turnaround',
-                  text: 'Smart workflows help reduce delays and keep your timeline on track.',
-                },
-                {
-                  title: 'Secure process',
-                  text: 'Your information stays protected with a discreet, carefully managed approach.',
-                },
-              ].map((feature) => (
-                <div
-                  key={feature.title}
-                  className="rounded-2xl border border-slate-200 bg-slate-50 p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#d4ad69] hover:shadow-md"
-                >
-                  <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#f7f0e4] text-lg text-[#a66d1d]">
-                    ✓
-                  </div>
-                  <h3 className="text-lg font-semibold text-slate-900">{feature.title}</h3>
-                  <p className="mt-2 text-sm leading-6 text-slate-600">{feature.text}</p>
-                </div>
-              ))}
             </div>
           </div>
         </div>
